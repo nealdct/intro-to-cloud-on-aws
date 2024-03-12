@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Order Form</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .container { background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); width: 300px; }
+        h1 { color: #333; text-align: center; }
+        form { display: flex; flex-direction: column; }
+        input[type=text], input[type=number] { padding: 10px; margin: 10px 0; border-radius: 4px; border: 1px solid #ddd; box-sizing: border-box; }
+        input[type=button] { background-color: #007bff; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; }
+        input[type=button]:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Submit a Product Order</h1>
+        <form id="orderForm">
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" name="productName">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity">
+            <input type="button" value="Submit" onclick="submitOrder()">
+        </form>
+    </div>
+    <script>
+        async function submitOrder() {
+            const productName = document.getElementById('productName').value;
+            const quantity = document.getElementById('quantity').value;
+            const response = await fetch('YOUR_API_ENDPOINT', {
+                method: 'POST',
+                body: JSON.stringify({ productName, quantity }),
+                headers: { 'Content-Type': 'application/json' }
+            });
+            if (response.ok) { alert('Order submitted successfully!'); document.getElementById('orderForm').reset(); }
+            else { alert('Failed to submit order.'); }
+        }
+    </script>
+</body>
+</html>
