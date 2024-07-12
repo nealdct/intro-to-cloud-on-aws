@@ -1,5 +1,6 @@
 # Introduction to Cloud Computing on AWS for Beginners Course Code
-*By [Digital Cloud Training](https://digitalcloud.training/) - Course Author Neal Davis*
+*By [Paulo Henrique](https://www.linkedin.com/in/p8queiroz/) - paulohenrique-wk
+
 
 ## How to Use the Course Code
 
@@ -8,8 +9,7 @@ The code used throughout the course has been zipped up and is available for down
 ## Course Overview
 
 - In this video course, you'll learn general cloud computing concepts and AWS from fundamentals right through to advanced concepts
-- You'll also build hands-on skills using many of the core Amazon Web Services (AWS) services
-- We use a highly visual and effective method of teaching cloud computing and AWS concepts using diagrams and animations so you gain a much deeper understanding (no bullet-point slides)
+- You'll also build hands-on skills using many of the core Amazon Web Services (AWS) services 
 - There are lots of hands-on exercises using an AWS free tier account to give you practical experience
 
 ***What you will learn:***
@@ -25,5 +25,3 @@ The code used throughout the course has been zipped up and is available for down
 - Implement serverless computing and Docker containers on AWS using AWS Lambda and Amazon ECS
 - Create event-driven architectures with serverless on Lambda
 - Create loosely coupled services with Amazon SQS and Amazon SNS
-
-Learn more and [enroll in this course](https://digitalcloud.training/cloud-computing-on-aws-for-beginners/) now to get started learning Amazon Web Services
