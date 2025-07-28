@@ -15,7 +15,7 @@ Resources:
   MyInstance:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0440d3b780d96b29d  # Ensure this AMI ID is valid for your region
+      ImageId: ami-093dc6859d9315726 # Ensure this AMI ID is valid for your region
       InstanceType: t2.micro
       SecurityGroups:
         - !Ref InstanceSecurityGroup
