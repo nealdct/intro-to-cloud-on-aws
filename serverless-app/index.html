@@ -29,7 +29,7 @@
         async function submitOrder() {
             const productName = document.getElementById('productName').value;
             const quantity = document.getElementById('quantity').value;
-            const response = await fetch('YOUR_API_ENDPOINT', {
+            const response = await fetch('https://oy057ikv58.execute-api.us-east-2.amazonaws.com/prod/orders', {
                 method: 'POST',
                 body: JSON.stringify({ productName, quantity }),
                 headers: { 'Content-Type': 'application/json' }
