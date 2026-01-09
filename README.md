@@ -3,7 +3,7 @@
 
 ## How to Use the Course Code
 
-The code used throughout the course has been zipped up and is available for download from this repo. Please download the code to your computer and unzip the contents. When course updates are made the file may be updated and you will need to ensure you download the latest version.
+The code used throughout the course is available for download from this repo. Please download the code to your computer. When course updates are made you will need to ensure you download the latest version.
 
 ## Course Overview
 
