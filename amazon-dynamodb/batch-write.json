@@ -1,0 +1,305 @@
+{
+    "myorders": [
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client01@example.com"},
+            "created": {"S": "2023-01-01T10:00Z"},
+            "sku": {"S": "SKU-001"},
+            "category": {"S": "Electronics"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Black"},
+            "qty": {"N": "1"},
+            "price": {"N": "100"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client02@example.com"},
+            "created": {"S": "2023-01-02T11:00Z"},
+            "sku": {"S": "SKU-002"},
+            "category": {"S": "Books"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "N/A"},
+            "qty": {"N": "2"},
+            "price": {"N": "50"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client03@example.com"},
+            "created": {"S": "2023-01-03T12:00Z"},
+            "sku": {"S": "SKU-003"},
+            "category": {"S": "Clothing"},
+            "size": {"S": "Medium"},
+            "colour": {"S": "Red"},
+            "qty": {"N": "1"},
+            "price": {"N": "35"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client04@example.com"},
+            "created": {"S": "2023-01-04T13:00Z"},
+            "sku": {"S": "SKU-004"},
+            "category": {"S": "Home & Kitchen"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Silver"},
+            "qty": {"N": "1"},
+            "price": {"N": "80"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client05@example.com"},
+            "created": {"S": "2023-01-05T14:00Z"},
+            "sku": {"S": "SKU-005"},
+            "category": {"S": "Toys"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Multicolor"},
+            "qty": {"N": "3"},
+            "price": {"N": "25"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client06@example.com"},
+            "created": {"S": "2023-01-06T15:00Z"},
+            "sku": {"S": "SKU-006"},
+            "category": {"S": "Electronics"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "White"},
+            "qty": {"N": "1"},
+            "price": {"N": "120"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client07@example.com"},
+            "created": {"S": "2023-01-07T16:00Z"},
+            "sku": {"S": "SKU-007"},
+            "category": {"S": "Gardening"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Green"},
+            "qty": {"N": "2"},
+            "price": {"N": "45"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client08@example.com"},
+            "created": {"S": "2023-01-08T17:00Z"},
+            "sku": {"S": "SKU-008"},
+            "category": {"S": "Sports"},
+            "size": {"S": "Large"},
+            "colour": {"S": "Blue"},
+            "qty": {"N": "1"},
+            "price": {"N": "75"},
+            "weight": {"S": "Heavy"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client09@example.com"},
+            "created": {"S": "2023-01-09T18:00Z"},
+            "sku": {"S": "SKU-009"},
+            "category": {"S": "Books"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "N/A"},
+            "qty": {"N": "1"},
+            "price": {"N": "15"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client10@example.com"},
+            "created": {"S": "2023-01-10T19:00Z"},
+            "sku": {"S": "SKU-010"},
+            "category": {"S": "Clothing"},
+            "size": {"S": "Small"},
+            "colour": {"S": "Black"},
+            "qty": {"N": "2"},
+            "price": {"N": "60"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client11@example.com"},
+            "created": {"S": "2023-01-11T20:00Z"},
+            "sku": {"S": "SKU-011"},
+            "category": {"S": "Electronics"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Grey"},
+            "qty": {"N": "1"},
+            "price": {"N": "200"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client12@example.com"},
+            "created": {"S": "2023-01-12T21:00Z"},
+            "sku": {"S": "SKU-012"},
+            "category": {"S": "Home & Kitchen"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Yellow"},
+            "qty": {"N": "1"},
+            "price": {"N": "40"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client13@example.com"},
+            "created": {"S": "2023-01-13T22:00Z"},
+            "sku": {"S": "SKU-013"},
+            "category": {"S": "Toys"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Red"},
+            "qty": {"N": "2"},
+            "price": {"N": "30"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client14@example.com"},
+            "created": {"S": "2023-01-14T23:00Z"},
+            "sku": {"S": "SKU-014"},
+            "category": {"S": "Gardening"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Brown"},
+            "qty": {"N": "3"},
+            "price": {"N": "22"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client15@example.com"},
+            "created": {"S": "2023-01-15T24:00Z"},
+            "sku": {"S": "SKU-015"},
+            "category": {"S": "Sports"},
+            "size": {"S": "Medium"},
+            "colour": {"S": "Green"},
+            "qty": {"N": "1"},
+            "price": {"N": "85"},
+            "weight": {"S": "Heavy"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client16@example.com"},
+            "created": {"S": "2023-01-16T01:00Z"},
+            "sku": {"S": "SKU-016"},
+            "category": {"S": "Books"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "N/A"},
+            "qty": {"N": "1"},
+            "price": {"N": "20"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client17@example.com"},
+            "created": {"S": "2023-01-17T02:00Z"},
+            "sku": {"S": "SKU-017"},
+            "category": {"S": "Clothing"},
+            "size": {"S": "Large"},
+            "colour": {"S": "Purple"},
+            "qty": {"N": "1"},
+            "price": {"N": "75"},
+            "weight": {"S": "Light"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client18@example.com"},
+            "created": {"S": "2023-01-18T03:00Z"},
+            "sku": {"S": "SKU-018"},
+            "category": {"S": "Electronics"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Black"},
+            "qty": {"N": "2"},
+            "price": {"N": "150"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client19@example.com"},
+            "created": {"S": "2023-01-19T04:00Z"},
+            "sku": {"S": "SKU-019"},
+            "category": {"S": "Home & Kitchen"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "White"},
+            "qty": {"N": "1"},
+            "price": {"N": "65"},
+            "weight": {"S": "Medium"}
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "clientid": {"S": "client20@example.com"},
+            "created": {"S": "2023-01-20T05:00Z"},
+            "sku": {"S": "SKU-020"},
+            "category": {"S": "Toys"},
+            "size": {"S": "N/A"},
+            "colour": {"S": "Blue"},
+            "qty": {"N": "3"},
+            "price": {"N": "45"},
+            "weight": {"S": "Light"}
+          }
+        }
+      }
+    ]
+  }
+  

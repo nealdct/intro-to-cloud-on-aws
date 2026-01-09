@@ -1,0 +1,8 @@
+{
+  "Version": "2012-10-17",
+  "Statement": {
+    "Effect": "Allow",
+    "Action": "sts:AssumeRole",
+    "Resource": "arn:aws:iam::975050181034:role/ec2-role"
+  }
+}

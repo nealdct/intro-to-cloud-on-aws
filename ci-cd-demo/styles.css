@@ -1,0 +1,91 @@
+:root{
+  --accent:#0a84ff;
+  --bg:#f6f8fb;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --card:#ffffff;
+  --radius:14px;
+  --shadow:0 10px 25px rgba(0,0,0,.08);
+  --transition:.25s ease;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  display:flex;
+  flex-direction:column;
+}
+
+/* Header */
+.site-header{
+  background:linear-gradient(135deg, var(--accent), #4aa3ff);
+  color:#fff;
+  text-align:center;
+  padding:2.5rem 1rem;
+  box-shadow:var(--shadow);
+}
+.site-header h1{
+  margin:0 0 .35rem 0;
+  font-size:2rem;
+  letter-spacing:.2px;
+}
+.site-header p{
+  margin:0;
+  font-weight:300;
+  opacity:.95;
+}
+
+/* Main */
+main{
+  flex:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:2rem 1rem;
+}
+.card{
+  background:var(--card);
+  width:100%;
+  max-width:640px;
+  padding:2.5rem;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  text-align:center;
+  transition:transform var(--transition), box-shadow var(--transition);
+}
+.card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 16px 40px rgba(0,0,0,.12);
+}
+#message{
+  margin:0 0 .75rem 0;
+  color:var(--accent);
+  font-size:1.9rem;
+  line-height:1.2;
+}
+.card p{
+  margin:0;
+  color:var(--muted);
+  font-size:1.05rem;
+}
+
+/* Footer */
+.site-footer{
+  background:#eef2f7;
+  border-top:1px solid #e5e7eb;
+  text-align:center;
+  padding:1rem;
+  color:#475569;
+  font-size:.95rem;
+}
+
+/* Small screens */
+@media (max-width:480px){
+  .site-header{padding:2rem 1rem}
+  .card{padding:2rem}
+  #message{font-size:1.6rem}
+}
